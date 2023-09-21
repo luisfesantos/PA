@@ -18,7 +18,19 @@ namespace Aula_19_09_2023
             n4 = float.Parse(Console.ReadLine());
 
             media = (n1 + n2 + n3 + n4) / 4;
-            Console.WriteLine("Sua nota final é: " + media)
+
+            if (media < 5)
+            {
+                Console.WriteLine("Reprovado :C");
+            }
+            else if (media < 7)
+            {
+                Console.WriteLine("Recuperação :C");
+            } 
+            else 
+            {
+                Console.WriteLine("Aprovado ;D");
+            }
         }
     }
 }
