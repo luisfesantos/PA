@@ -6,7 +6,7 @@ namespace Aula_05_10_2023
     {
         static void Main(string[] args)
         {
-            //1
+            // 1
             float num1, num2;
             string operador;
 
@@ -35,7 +35,7 @@ namespace Aula_05_10_2023
             }
 
 
-            // 2
+            /* 2
             int numero;
             Console.Write("Informe um número:");
             numero = int.Parse(Console.ReadLine());
@@ -49,7 +49,7 @@ namespace Aula_05_10_2023
             }
 
 
-            //3
+            / 3
             float salario, reajuste;
             Console.Write("Informe seu salário: ");
             salario = float.Parse(Console.ReadLine());
@@ -70,8 +70,7 @@ namespace Aula_05_10_2023
             {
                 reajuste = (salario * 10) / 100;
                 Console.WriteLine("Reajuste aplicado: " + (salario + reajuste));
-            }
-
+            }*/
         }
     }
 }
